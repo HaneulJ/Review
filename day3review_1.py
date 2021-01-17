@@ -123,4 +123,20 @@ print("<<6번>>")
 # 입력된 숫자가 음수이면 양수로 변경하여 “입력값(부호변경) : x” 를 출력한 다음 행에 1부터 입력된 숫자 값까지의 곱한 결과를 출력한다.
 while True:
     num = int(input("숫자를 입력하시오:"))
-    
+    sum = 1
+    if  -10 > num or num < 10:
+        continue
+    elif 0 < num:
+        for i in range(1,num+1):
+            sum *= i
+        print("입력값:", num)
+        print(sum)
+    elif num < 0:
+        num *= (-1)
+        for i in range(1,num+1):
+            sum *= i
+        print("입력값(부호 변경):",num)
+        print(sum)
+    elif num == 0:
+        print("종료")
+        break
