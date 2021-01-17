@@ -19,6 +19,7 @@ while i <= n :
     print(i, "->", i**2)
     i += 1
 
+
 print("\n")
 
 # 2번
@@ -37,6 +38,7 @@ while True:
     else:
         print("게임 끝")
     break
+
 
 print("\n")
 # 3번
@@ -57,6 +59,7 @@ while True:
     else:
         break
 print("수행횟수는", count, "번입니다.")
+
 
 print("\n")
 # 4번
@@ -82,8 +85,8 @@ while True:
         print("1~12 사이의 값을 입력하세요!")
     break
 
-print("\n")
 
+print("\n")
 # 5번
 print("<<5번>>")
 # 사용자로부터 문자열을 하나 입력받아 word 라는 변수에 저장한다.
@@ -94,7 +97,6 @@ print("<<5번>>")
 # wordlength 라는 변수의 값이 5 미만이면 문자열의 앞과 뒤에 “*” 기호를 붙여서 result 변수에 저장한다.
 # wordlength 라는 변수의 값이 8 초과이면 문자열의 앞과 뒤에 “$” 기호를 붙여서 result 변수에 저장한다.
 # result 변수의 값을 다음 형식으로 출력한다. 유효한 입력 결과 : ........
-
 # word = str(input("문자를 입력하세요:"))
 # wordlength = len(word)
 # while문 전에 먼저 호출하면 하나의 문자열만 무한루프
@@ -112,8 +114,8 @@ while True:
         result = "$"+word+"$"
     print("유효한 입력 결과:", result)
 
-print("\n")
 
+print("\n")
 # 6번
 print("<<6번>>")
 # 숫자를 하나 입력받는다.
